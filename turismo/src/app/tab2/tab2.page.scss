@@ -1,0 +1,32 @@
+ion-thumbnail {
+    width: 80px;
+    height: 80px;
+    img {
+      object-fit: cover;
+    }
+  }
+  
+  ion-item {
+    --inner-padding-top: 10px;
+    --inner-padding-bottom: 10px;
+  }
+  .custom-button {
+    --background: #3880ff; /* Cor de fundo */
+    --background-activated: #3171e0; /* Cor de fundo ao clicar */
+    --background-focused: #4c8dff; /* Cor de fundo ao focar */
+    --background-hover: #4c8dff; /* Cor de fundo ao passar o mouse */
+    --color: white; /* Cor do texto */
+    --border-radius: 12px; /* Borda arredondada */
+    --padding-start: 20px;
+    --padding-end: 20px;
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    font-size: 1.2em; /* Tamanho da fonte */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.2s;
+  }
+  
+  .custom-button:active {
+    transform: scale(0.95); /* Efeito ao clicar */
+  }
+  
